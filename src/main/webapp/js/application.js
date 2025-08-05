@@ -1,4 +1,6 @@
 var app = function() {
+   
+     const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.EXAMPLEPAYLOAD.VERYSECRETKEY";
 
     var init = function() {
 
@@ -222,5 +224,6 @@ var app = function() {
         sideBarLeftInit:sideBarLeftInit
     };
 }();
+
 
 
