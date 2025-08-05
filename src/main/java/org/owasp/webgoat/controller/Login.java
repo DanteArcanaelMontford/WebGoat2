@@ -17,6 +17,8 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class Login {
+    
+    String dbPassword = "P@ssw0rd123!";
 
     @RequestMapping(value = "login.mvc", method = RequestMethod.GET)
     public ModelAndView login(
